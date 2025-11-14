@@ -4,6 +4,7 @@ Light Accent: #BEAD6C;
 Main Brand Color: #9DA698;
 Dark Accent: #79746E;
 Dark Shades: #414D41;
+also used gold: #E0BE43	
 */
 
 * {
@@ -16,7 +17,6 @@ body {
   padding: 0;
 }
 
-/* Navigation Bar Styles */
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -54,7 +54,6 @@ body {
   font-weight: bold;
 }
 
-/* Page Header */
 .page-header {
   display: flex;
   align-items: center;
@@ -79,7 +78,6 @@ body {
   display: inline-block;
 }
 
-/* 3-Column Layout */
 .three-column-layout {
   display: flex;
   min-height: 600px;
@@ -87,7 +85,6 @@ body {
   gap: 20px;
 }
 
-/* Left Column - Bio (White) */
 .column-left {
   flex: 1;
   background-color: #F6F5F4;
@@ -112,7 +109,6 @@ body {
   font-style: italic;
 }
 
-/* Middle Column - Projects (GREEN - BIGGER) */
 .column-middle {
   flex: 2;
   background-color: #9DA698;
@@ -130,7 +126,6 @@ body {
   color: #414D41;
 }
 
-/* Right Column - Skills (White) */
 .column-right {
   flex: 1;
   background-color: #F6F5F4;
@@ -146,7 +141,6 @@ body {
   color: #79746E;
 }
 
-/* Typography */
 p, a, em {
   font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
@@ -195,12 +189,10 @@ a {
   text-decoration: underline;
 }
 
-/* Project Styling */
 .project {
   margin-bottom: 25px;
 }
 
-/* Footer */
 .page-footer {
   background-color: #79746E;
   padding: 20px;
