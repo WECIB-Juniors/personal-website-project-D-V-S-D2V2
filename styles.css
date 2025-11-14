@@ -1,30 +1,66 @@
 /* Color Palette:
-Light Shades: #EFEAE6;
-Light Accent: #A99284;
-Main Brand Color: #895449;
-Dark Accent: #8C8C8B;
-Dark Shades: #513434;
+Light Shades: #F6F5F4;
+Light Accent: #BEAD6C;
+Main Brand Color: #9DA698;
+Dark Accent: #79746E;
+Dark Shades: #414D41;
 */
+
 * {
   box-sizing: border-box;
 }
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* adds space between image and text */
+    margin-bottom: 25px;
+}
+body {
+  background-color: #414D41;
+}
+
+p, a, em {
+
+    color: #F6F5F4;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+}
+li {
+    color: #BEAD6C;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+}
+h3 {
+  color: #BEAD6C;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+ol, ul {
+  color: #F6F5F4;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  margin-left: 1.5em;
+}
 
 .name {
-  color: #EFEAE6; 
+  color: #D4AF37;
   font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 35px;
   display: inline-block;
 }
-
+strong {
+    color: #9DA698
+}
 .profile-pic {
   display: inline-block;
   border-radius: 50%; 
-  width: 80px; 
+  width: 80px;
 }
 
-body {
-  color: #EFEAE6; 
-  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 18px; 
-  background-color: #895449; 
+a {
+  color: #F6F5F4; 
+
 }
