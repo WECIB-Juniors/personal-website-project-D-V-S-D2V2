@@ -9,29 +9,79 @@ Dark Shades: #414D41;
 * {
   box-sizing: border-box;
 }
-header {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* adds space between image and text */
-    margin-bottom: 25px;
-}
+
 body {
+  background-color: #414D41;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #79746E;
+}
+
+.navbar li {
+  float: left;
+  border-right: 1px solid #9DA698;
+}
+
+.navbar li:last-child {
+  border-right: none;
+}
+
+.navbar li a {
+  display: block;
+  color: #F6F5F4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.navbar li a:hover:not(.active) {
   background-color: #414D41;
 }
 
-p, a, em {
+.navbar li a.active {
+  background-color: #9DA698;
+  color: #414D41;
+  font-weight: bold;
+}
 
-    color: #F6F5F4;
-    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 18px;
+/* Content Container */
+.content {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+p, a, em {
+  color: #F6F5F4;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+}
+
 li {
-    color: #BEAD6C;
-    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 18px;
-}
-h3 {
   color: #BEAD6C;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: #F6F5F4;
   font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -51,9 +101,11 @@ ol, ul {
   font-size: 35px;
   display: inline-block;
 }
+
 strong {
-    color: #9DA698
+  color: #9DA698;
 }
+
 .profile-pic {
   display: inline-block;
   border-radius: 50%; 
@@ -62,5 +114,4 @@ strong {
 
 a {
   color: #F6F5F4; 
-
 }
