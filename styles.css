@@ -210,3 +210,16 @@ a {
   color: #BEAD6C;
   font-weight: bold;
 }
+@media (max-width: 968px) {
+  .three-column-layout {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .column-left,
+  .column-middle,
+  .column-right {
+    flex: none;
+    width: 100%;
+  }
+}
